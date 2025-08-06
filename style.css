@@ -74,7 +74,7 @@ section::before {
   inset: 0;
   background: inherit;
   border-radius: inherit;
-  opacity: 1;
+  opacity: .25;
   mask-image: radial-gradient(
     ellipse at center,
     rgba(0, 0, 0, 1) 40%,
