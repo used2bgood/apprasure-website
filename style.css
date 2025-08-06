@@ -60,7 +60,7 @@ section {
   padding: 1rem .5rem;
   max-width: 950px;
   margin: 160px auto 1.5rem;
-  background: rgba(220, 220, 215, .35);
+  background: rgba(220, 220, 215) 20%;
   border-radius: 12px;
   position: relative;
   overflow: hidden;
@@ -74,7 +74,7 @@ section::before {
   border-radius: inherit;
   opacity: .35;
   mask-image: linear-gradient(to right,
-    rgba(0, 0, 0, 0) 0%,
+    rgba(220,220,215) 0%,
     rgba(0, 0, 0, 1) 15%,
     rgba(0, 0, 0, 1) 85%,
     rgba(0, 0, 0, 0) 100%
