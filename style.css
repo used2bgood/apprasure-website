@@ -8,7 +8,7 @@ body {
   line-height: 1.6;
 }
 header {
-  padding: 1rem 1rem 1rem;
+  padding: .25rem .25rem .25rem;
   z-index: 1000;
   text-align: center;
   background: linear-gradient(to bottom, #2c2c2c, #1f1f1f);
@@ -17,7 +17,7 @@ header {
   top: 0;
 }
 header img {
-  width: 337.5px;
+  width: 360px;
   height: auto;
   display: block;
   margin: 0 auto 0.5rem;
@@ -32,7 +32,7 @@ header p {
 nav {
   background-color: #3b5f41;
   text-align: center;
-  padding: 1rem 0;
+  padding: .25rem 0;
   position: sticky;
   top: 108px;
   z-index: 999;
@@ -41,7 +41,7 @@ nav {
   background-image: linear-gradient(to bottom, #3b5f41, #324c37);
 }
 nav a {
-  margin: 0 1.5rem;
+  margin: 0 .75rem;
   text-decoration: none;
   color: #e1f2e3;
   font-weight: bold;
@@ -51,7 +51,7 @@ nav a:hover {
   color: #a7dfb9;
 }
 section {
-  padding: 4rem 2rem;
+  padding: 2rem 1rem;
   max-width: 950px;
   margin: 160px auto 4rem;
   background: rgba(220, 220, 215, 0.45);
@@ -81,17 +81,17 @@ section > * {
 }
 h2 {
   color: #3a4b42;
-  font-size: 2rem;
-  margin-bottom: 1rem;
+  font-size: 1rem;
+  margin-bottom: .5rem;
 }
 .cta {
   text-align: center;
-  margin-top: 3rem;
+  margin-top: 1.5rem;
 }
 .cta a {
   background: #3a4b42;
   color: #fff;
-  padding: 1rem 2rem;
+  padding: .75rem 1rem;
   text-decoration: none;
   font-weight: bold;
   border-radius: 6px;
@@ -104,7 +104,7 @@ footer {
   background-color: #3a4b42;
   color: #e6e6e6;
   text-align: center;
-  padding: 2rem 1rem;
+  padding: 1rem .5rem;
   font-size: 0.95rem;
 }
 footer img {
