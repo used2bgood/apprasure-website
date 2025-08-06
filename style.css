@@ -60,7 +60,7 @@ section {
   padding: 1rem .5rem;
   max-width: 950px;
   margin: 160px auto 4rem;
-  background: rgba(220, 220, 215, 1);
+  background: rgba(220, 220, 215, .35);
   border-radius: 12px;
   backdrop-filter: blur(7px);
   position: relative;
