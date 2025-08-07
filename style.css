@@ -1,3 +1,9 @@
+:root {
+  --primary: #3a4b42;
+  --accent: #e1f2e3;
+  --text-dark: #2e2e2e;
+}
+
 body {
   margin: 0;
   font-family: 'Segoe UI', sans-serif;
@@ -49,7 +55,7 @@ nav {
 nav a {
   margin: 0 .75rem;
   text-decoration: none;
-  color: #e1f2e3;
+  color: var(--accent);
   font-weight: bold;
   transition: color 0.3s ease;
 }
@@ -97,7 +103,7 @@ section > * {
 }
 
 h2 {
-  color: #3a4b42;
+  color: var(--primary);
   font-size: 2rem;
   margin-bottom: .5rem;
 }
@@ -108,7 +114,7 @@ h2 {
 }
 
 .cta a {
-  background: #3a4b42;
+  background: var(--primary);
   color: #fff;
   padding: .75rem 1rem;
   text-decoration: none;
@@ -125,7 +131,7 @@ h2 {
 footer {
   position: sticky;
   bottom: 0;
-  background-color: #3a4b42;
+  background-color: var(--primary);
   color: #e6e6e6;
   text-align: center;
   padding: .1rem 0rem;
