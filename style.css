@@ -125,6 +125,20 @@ body {
   background-size: cover;
   opacity: 0.08;
 }
+  .pre-footer {
+  background-color: #f7f7f7;
+  padding: 1.5rem 0;
+  text-align: center;
+}
+.pre-footer img {
+  width: 80px;
+  height: auto;
+  margin: 0 .5rem;
+  background-color: #fff;
+  padding: .5rem;
+  border-radius: 8px;
+  box-shadow: 0 1px 5px rgba(0,0,0,0.1);
+}
 
 footer {
   background-color: #3a4b42;
