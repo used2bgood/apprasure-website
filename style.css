@@ -37,7 +37,7 @@ nav {
   background-color: #3b5f41;
   text-align: center;
   padding: .25rem 0;
-  position: sticky;
+  position: fixed;
   top: 108px;
   z-index: 999;
   box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
@@ -280,7 +280,7 @@ h2 {
 
 
 footer {
-  position: sticky;
+  position: fixed;
   bottom: 0;
   background-color: #3a4b42;
   color: #e6e6e6;
@@ -288,6 +288,7 @@ footer {
   text-align: center;
   padding: .1rem 0rem;
   font-size: 0.95rem;
+  z-index: 1900;
   
 }
 
@@ -295,6 +296,7 @@ footer img {
   width: 340px;
   height: auto;
   margin-bottom: 0rem;
+  z-index: 2000;
 }
 
   .pre-footer {
@@ -306,7 +308,7 @@ footer img {
   gap: 1.5rem;
   overflow-x: auto;
   white-space: nowrap;
-  z-index: 2000; /* Ensures it's above all other elements */
+  z-index: 1500; /* Ensures it's above all other elements */
   
 }
 .pre-footer img {
