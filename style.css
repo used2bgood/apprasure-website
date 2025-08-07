@@ -54,6 +54,7 @@ nav {
 
 nav a {
   margin: 0 .75rem;
+  position: fixed;
   text-decoration: none;
   color: var(--accent);
   font-weight: bold;
