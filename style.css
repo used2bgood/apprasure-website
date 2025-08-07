@@ -124,13 +124,19 @@ h2 {
   .pre-footer {
   background: <img src='floorplan-background.png'> repeat;
   padding: 1.5rem 0;
-  text-align: center;
-  position: sticky;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 2rem;
+  overflow-x: auto;
+  white-space: nowrap;
+  
 }
 .pre-footer img {
-  max-width: 240px;
   max-height: 160px;
-  margin: 0 .5rem;
+  max-width: auto;
+  margin: 0 .25rem;
+  flex-shrink: 1;
   display: inline-block;
 }
 
