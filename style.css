@@ -146,7 +146,7 @@ footer img {
 }
 
   .pre-footer {
-  background: <img src='floorplan-background.png'> repeat;
+  background: none !important;
   padding: 2rem 0;
   display: flex;
   justify-content: center;
