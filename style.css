@@ -178,7 +178,7 @@ header {
 header img {
   width: 400px;
   height: auto;
-  display: block;
+  display: block; 
   margin: 0 auto 0.45rem;
 }
 
@@ -284,6 +284,7 @@ footer {
   bottom: 0;
   background-color: #3a4b42;
   color: #e6e6e6;
+  opacity: 100%;
   text-align: center;
   padding: .1rem 0rem;
   font-size: 0.95rem;
