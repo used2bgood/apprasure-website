@@ -133,9 +133,9 @@ h2 {
   
 }
 .pre-footer img {
-  max-height: 160px;
+  max-height: 120px;
   max-width: auto;
-  margin: 0 .25rem;
+  margin: 0 2rem;
   flex-shrink: 1;
   display: inline-block;
 }
