@@ -121,6 +121,24 @@ h2 {
   background: #4c5f56;
 }
 
+
+footer {
+  position: sticky;
+  bottom: 0;
+  background-color: #3a4b42;
+  color: #e6e6e6;
+  text-align: center;
+  padding: .1rem 0rem;
+  font-size: 0.95rem;
+  
+}
+
+footer img {
+  width: 340px;
+  height: auto;
+  margin-bottom: 0rem;
+}
+
   .pre-footer {
   background: <img src='floorplan-background.png'> repeat;
   padding: 10rem 0;
@@ -140,22 +158,6 @@ h2 {
   display: inline-block;
 }
 
-footer {
-  position: sticky;
-  bottom: 0;
-  background-color: #3a4b42;
-  color: #e6e6e6;
-  text-align: center;
-  padding: .1rem 0rem;
-  font-size: 0.95rem;
-  
-}
-
-footer img {
-  width: 340px;
-  height: auto;
-  margin-bottom: 0rem;
-}
 
 @keyframes fadeIn {
   from {opacity: 0; transform: translateY(20px);}
