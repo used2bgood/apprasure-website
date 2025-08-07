@@ -124,7 +124,7 @@ body {
   background-image: url('images/floorplan-background.png');
   background-repeat: repeat;
   background-size: cover;
-  opacity: 0.08;
+  opacity: 1;
 }
   .pre-footer {
   background-color: #f7f7f7;
