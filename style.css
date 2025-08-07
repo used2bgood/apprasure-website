@@ -139,6 +139,11 @@ footer {
   
 }
 
+footer a {
+  color: inherit; /* Matches the footer's text color */
+  text-decoration: underline; /* Adds underline */
+}
+
 footer img {
   width: 340px;
   height: auto;
