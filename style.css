@@ -1,7 +1,7 @@
 body {
   margin: 0;
   font-family: 'Segoe UI', sans-serif;
-  background: url('floorplan-background.png') repeat;
+  background: src('floorplan-background.png') repeat;
   background-size: 600px;
   color: #1c1c1c;
   line-height: 1.6;
