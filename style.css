@@ -127,7 +127,7 @@ body {
   opacity: .95;
 }
   .pre-footer {
-  background-color: #f7f7f7;
+  background: src('floorplan-background.png') repeat;
   padding: 1.5rem 0;
   text-align: center;
   position: sticky;
@@ -148,7 +148,7 @@ footer {
   background-color: #3a4b42;
   color: #e6e6e6;
   text-align: center;
-  padding: .25rem .5rem;
+  padding: .1rem 0rem;
   font-size: 0.95rem;
   position: sticky;
 }
