@@ -141,7 +141,7 @@ footer img {
 
   .pre-footer {
   background: <img src='floorplan-background.png'> repeat;
-  padding: 10rem 0;
+  padding: 6rem 0;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -151,9 +151,9 @@ footer img {
   
 }
 .pre-footer img {
-  max-height: 90px;
+  max-height: 75px;
   max-width: auto;
-  margin: 0 3rem;
+  margin: 0 2rem;
   flex-shrink: 1;
   display: inline-block;
 }
