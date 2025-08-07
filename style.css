@@ -306,6 +306,7 @@ footer img {
   gap: 1.5rem;
   overflow-x: auto;
   white-space: nowrap;
+  z-index: 2000; /* Ensures it's above all other elements */
   
 }
 .pre-footer img {
