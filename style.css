@@ -1,7 +1,8 @@
 body {
   margin: 0;
   font-family: 'Segoe UI', sans-serif;
-  background: <img src='floorplan-background.png'> repeat;
+  background-image: url('floorplan-background.png');
+  background-repeat: repeat;
   background-size: 600px;
   color: #1c1c1c;
   line-height: 1.6;
@@ -120,12 +121,6 @@ h2 {
   background: #4c5f56;
 }
 
-body {
-  background-image: <img src='floorplan-background.png'>;
-  background-repeat: repeat;
-  background-size: cover;
-  opacity: .95;
-}
   .pre-footer {
   background: <img src='floorplan-background.png'> repeat;
   padding: 1.5rem 0;
