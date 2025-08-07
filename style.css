@@ -136,7 +136,7 @@ footer {
   text-align: center;
   padding: .1rem 0rem;
   font-size: 0.95rem;
-  
+  z-index: 1000;
 }
 
 footer a {
