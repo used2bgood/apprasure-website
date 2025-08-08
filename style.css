@@ -106,40 +106,50 @@ footer {
 }
 
 .footer-top {
-  background: linear-gradient(135deg, #3b5f41 0%, #2e4536 100%); /* Subtle gradient */
-  color: #f4f4f4; /* Refined light gray text */
-  text-align: center;
-  padding: 1rem .5rem;
-  box-shadow: 0 -2px 12px rgba(0,0,0,0.2); /* Adds depth above footer */
+  /* translucent black so blur shows through */
+  background: rgba(0, 0, 0, 0.35);
+  backdrop-filter: blur(10px);
+  -webkit-backdrop-filter: blur(10px);
+  color: #f2f2f2;                 /* lighter text for contrast */
+  padding: .85rem 1rem;           /* shorter height */
+  border: 1px solid rgba(255,255,255,0.15);
+  border-radius: 14px;            /* optional: rounded edges */
+  box-shadow: 0 8px 24px rgba(0,0,0,0.25);
 }
 
 .footer-top h2 {
-  font-size: 1.8rem;
+  margin: 0;                      /* keep it tight */
+  font-size: 1.25rem;             /* slightly smaller to reduce height */
   font-weight: 700;
-  margin-bottom: 1rem;
+  letter-spacing: .2px;
 }
 
+/* Put text and button on the same horizontal line */
 .footer-top-content {
   display: flex;
-  flex-direction: column;
   align-items: center;
-  gap: .5rem;
+  justify-content: center;        /* center the row */
+  gap: 1rem;                      /* space between text and button */
+  flex-wrap: wrap;                /* wrap on small screens */
 }
 
+/* Button style that fits the glass look */
 .footer-cta-btn {
-  background: linear-gradient(45deg, #ffce00, #ff9a00);
-  color: #fff;
-  padding: 0.75rem 1.5rem;
-  border-radius: 50px;
-  font-size: 1rem;
-  font-weight: bold;
+  background: rgba(255,255,255,0.08);
+  color: #ffffff;
+  padding: .6rem 1.1rem;
+  border-radius: 999px;           /* pill */
+  border: 1px solid rgba(255,255,255,0.3);
   text-decoration: none;
-  box-shadow: 0 4px 10px rgba(0,0,0,0.2);
-  transition: all 0.3s ease;
+  font-weight: 700;
+  transition: transform .2s ease, background .2s ease, box-shadow .2s ease;
+  line-height: 1;                 /* tighter vertical rhythm */
 }
+
 .footer-cta-btn:hover {
-  transform: translateY(-2px);
-  box-shadow: 0 6px 14px rgba(0,0,0,0.3);
+  background: rgba(255,255,255,0.18);
+  transform: translateY(-1px);
+  box-shadow: 0 6px 18px rgba(0,0,0,0.35);
 }
 
 .footer-bottom {
