@@ -1,32 +1,61 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <meta name="description" content="AppraSure - Contact Us" />
-  <title>AppraSure | Contact Us</title>
-  <link rel="stylesheet" href="style.css" />
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Client Portal - AppraSure</title>
+    <link rel="stylesheet" href__="style.css">
+    <style>
+        .portal-wrapper {
+            min-height: 100vh;
+            background-image: src="floorplan-background.png";
+            background-repeat: repeat;
+            background-size: 600px;
+        }
+
+        .portal-content {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 20px;
+        }
+
+        .portal-header {
+            text-align: center;
+            padding: 40px 0;
+            background: rgba(255, 255, 255, 0.9);
+            border-radius: 12px 12px 0 0;
+        }
+
+        .portal-frame {
+            width: 100%;
+            height: 800px;
+            border: none;
+            background: white;
+            border-radius: 0 0 12px 12px;
+            box-shadow: 0 4px 20px rgba(0,0,0,0.1);
+        }
+    </style>
 </head>
 <body>
-  <header>
-    <img src="apprasure-transparent.png" alt="AppraSure Logo">
-    <p>Clear Resolutions for Complex Disputes</p>
-  </header>
+    <div class="portal-wrapper">
+        <!-- Your existing navigation -->
+        
+        <div class="portal-content">
+            <div class="portal-header">
+                <img src="apprasure-transparent.png" 
+                     alt="AppraSure" style="max-width: 300px; height: auto;">
+                <h1 style="color: var(--primary); margin: 20px 0 10px;">Client Onboarding Portal</h1>
+                <p style="color: var(--text-dark); font-size: 18px;">Complete your information to begin the claim process</p>
+            </div>
+            
+            <iframe 
+                src="[YOUR_BASE44_APP_URL]/Onboarding" 
+                class="portal-frame"
+                title="AppraSure Client Portal">
+            </iframe>
+        </div>
+    </div>
 
-  <nav>
-    <a href="index.html">Home</a>
-    <a href="why.html">Why Appraisal?</a>
-    <a href="services.html">Services</a>
-    <a href="testimonials.html">Testimonials</a>
-    <a href="contact.html">Contact</a>
-  </nav>
-
-  <section>
-    <h2>Contact Us</h2>
-    
-    <p>Email: <a href="mailto:info@apprasure.com">info@apprasure.com</a></p>
-    <p>Phone: (469) 905-0505</p>
-  </section>
 
  <section class="pre-footer">
     <div class="logo-strip">
