@@ -79,9 +79,29 @@ h2 {
   margin-bottom: .5rem;
 }
 
+.pre-footer {
+  background: none;
+  padding: 0rem 0;
+  display: flex;
+  justify-content: center; /* centers the whole row */
+}
+
+.logo-strip {
+  display: flex;
+  flex-wrap: wrap;         /* allows wrapping on smaller screens */
+  justify-content: center; /* centers items within the strip */
+  align-items: center;
+  gap: 1.25rem;                /* space between logos */
+}
+
+.logo-strip img {
+  max-height: 50px;        /* uniform height */
+  width: auto;             /* keeps proportions */
+}
+
 /* Footer styles */
 footer {
-  margin-top: 3rem;
+  margin-top: 1.5rem;
   font-size: 0.95rem;
 }
 
