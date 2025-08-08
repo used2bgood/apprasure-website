@@ -107,7 +107,7 @@ footer {
 
 .footer-top {
   /* translucent black so blur shows through */
-  background: rgba(0, 0, 0, 0.35);
+  background: linear-gradient(to bottom, #2c2c2c, #1f1f1f, .15) /*test gradient blur*/
   backdrop-filter: blur(10px);
   -webkit-backdrop-filter: blur(10px);
   color: #f2f2f2;                 /* lighter text for contrast */
