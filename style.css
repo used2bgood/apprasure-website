@@ -106,10 +106,17 @@ footer {
 }
 
 .footer-top {
-  background: var(--header-gradient);
-  
+  background: linear-gradient(135deg, #3b5f41 0%, #2e4536 100%); /* Subtle gradient */
+  color: #f4f4f4; /* Refined light gray text */
   text-align: center;
   padding: 1rem .5rem;
+  box-shadow: 0 -2px 12px rgba(0,0,0,0.2); /* Adds depth above footer */
+}
+
+.footer-top h2 {
+  font-size: 1.8rem;
+  font-weight: 700;
+  margin-bottom: 1rem;
 }
 
 .footer-top-content {
