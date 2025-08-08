@@ -117,12 +117,16 @@ footer {
 }
 
 .footer-bottom {
+  .footer-bottom {
   background: var(--header-gradient);
+  color: #ccc; /* Match the copyright text color */
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
-  padding: 2rem 1rem;
+  padding: 1rem 2rem;
   gap: 1.5rem;
+}
+
 }
 
 .footer-bottom a {
