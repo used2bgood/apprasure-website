@@ -119,7 +119,7 @@ footer {
 .footer-bottom {
   .footer-bottom {
   background: var(--header-gradient);
-  color: #ccc; /* Match the copyright text color */
+  font-color: #ccc; /* Match the copyright text color */
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
