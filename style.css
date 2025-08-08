@@ -42,14 +42,16 @@ header p {
 
 nav {
   background-color: #3b5f41;
-  position: fixed;
   text-align: center;
-  padding: .25rem 0;
-  position: sticky;
-  top: 108px;
+  position: fixed; /* stays in one place */
+  top: 108px;       /* height of the header */
+  left: 0;
+  width: 100%;      /* span across the screen */
   z-index: 999;
   box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
   background-image: linear-gradient(to bottom, #3b5f41, #324c37);
+  padding: .25rem 0;
+  
 }
 
 nav a {
