@@ -145,9 +145,8 @@ footer {
 }
 
 .footer-cta-btn:hover {
-  background: rgba(255,255,255,0.18);
-  transform: translateY(-1px);
-  box-shadow: 0 6px 18px rgba(0,0,0,0.35);
+  transform: translateY(-2px);
+  box-shadow: 0 6px 14px rgba(0,0,0,0.3);
 }
 
 .footer-bottom {
