@@ -107,13 +107,11 @@ footer {
 
 .footer-top {
   /* translucent black so blur shows through */
-  background: linear-gradient(to bottom, #2c2c2c, #1f1f1f, .15) /*test gradient blur*/
-  backdrop-filter: blur(10px);
+  background: linear-gradient(to bottom, #2c2c2c, #1f1f1f, .35) /*test gradient blur*/
   -webkit-backdrop-filter: blur(10px);
   color: #f2f2f2;                 /* lighter text for contrast */
   padding: .85rem 1rem;           /* shorter height */
   border: 1px solid rgba(255,255,255,0.15);
-  border-radius: 14px;            /* optional: rounded edges */
   box-shadow: 0 8px 24px rgba(0,0,0,0.25);
 }
 
