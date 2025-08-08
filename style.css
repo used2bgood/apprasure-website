@@ -26,7 +26,7 @@ header {
 }
 
 header img {
-  width: 400px;
+  width: 360px;
   height: auto;
   display: block;
   margin: 0 auto 0.45rem;
@@ -128,8 +128,6 @@ footer {
   gap: 1.5rem;
 }
 
-}
-
 .footer-bottom a {
   color: inherit;
   text-decoration: underline;
@@ -138,7 +136,7 @@ footer {
 .footer-bottom img {
   width: 200px;
   height: auto;
-  margin-bottom: 0.5rem;
+  margin-bottom: 0.2rem;
 }
 
 .footer-column h4 {
