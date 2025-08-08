@@ -44,10 +44,9 @@ nav {
   background-color: #3b5f41;
   text-align: center;
   position: fixed; /* stays in one place */
-  top: 108px;       /* height of the header */
   left: 0;
   width: 100%;      /* span across the screen */
-  z-index: 999;
+  z-index: 1001;
   box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
   background-image: linear-gradient(to bottom, #3b5f41, #324c37);
   padding: .25rem 0;
