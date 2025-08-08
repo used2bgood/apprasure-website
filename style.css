@@ -118,6 +118,7 @@ footer {
 
 .footer-bottom {
   background: var(--header-gradient);
+  color: #e1f2e3
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
