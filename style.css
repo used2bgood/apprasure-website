@@ -2,6 +2,7 @@
   --primary: #3a4b42;
   --accent: #e1f2e3;
   --text-dark: #2e2e2e;
+  --header-gradient: linear-gradient(to bottom, #2c2c2c, #1f1f1f)
 }
 
 body {
@@ -116,8 +117,7 @@ footer {
 }
 
 .footer-bottom {
-  background: var(--primary);
-  color: #e6e6e6;
+  background: var(--header-gradient);
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
