@@ -133,8 +133,8 @@ footer {
 
 /* Button style that fits the glass look */
 .footer-cta-btn {
-  background: rgba(255,255,255,0.08);
-  color: linear-gradient (to bottom, #ffce00, #ff9a00);
+  background: linear-gradient(to bottom, #ffce00, #ff9a00);
+  color: #fff;
   padding: .6rem 1.1rem;
   border-radius: 999px;           /* pill */
   border: 1px solid rgba(255,255,255,0.3);
