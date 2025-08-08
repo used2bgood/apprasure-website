@@ -79,6 +79,74 @@ h2 {
   margin-bottom: .5rem;
 }
 
+.how-helps {
+  max-width: 1100px;
+  margin: auto;
+  padding: 2rem;
+  font-family: 'Segoe UI', sans-serif;
+}
+
+.how-helps h2 {
+  text-align: center;
+  font-size: 2rem;
+  margin-bottom: 2rem;
+  color: #1c1c1c;
+}
+
+/* Grid layout */
+.help-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  gap: 2rem;
+}
+
+/* Individual item */
+.help-item {
+  background: white;
+  border-radius: 10px;
+  padding: 1.5rem;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.08);
+  text-align: left;
+}
+
+.help-item img {
+  width: 40px;
+  height: 40px;
+  margin-bottom: 1rem;
+}
+
+.help-item h3 {
+  font-size: 1.2rem;
+  margin-bottom: 0.5rem;
+  color: #1c1c1c;
+}
+
+.help-item p, 
+.help-item ul {
+  font-size: 0.95rem;
+  color: #333;
+  margin: 0;
+  padding: 0;
+}
+
+.help-item ul {
+  list-style: none;
+}
+
+.help-item ul li {
+  margin-bottom: 0.4rem;
+  padding-left: 1.2rem;
+  position: relative;
+}
+
+.help-item ul li::before {
+  content: "•";
+  position: absolute;
+  left: 0;
+  color: #3a4b42; /* Accent color */
+  font-weight: bold;
+}
+
 .pre-footer {
   background: none;
   padding: 0rem 0;
