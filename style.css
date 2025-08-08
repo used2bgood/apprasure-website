@@ -151,7 +151,7 @@ footer {
 
 .footer-bottom {
   box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
-  background-image: linear-gradient(to bottom, #3b5f41, #324c37);
+  background-image: linear-gradient(to right, #3b5f41, #324c37);
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
