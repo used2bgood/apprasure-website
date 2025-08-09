@@ -1,61 +1,129 @@
 <!DOCTYPE html>
 <html lang="en">
-<body>
-    <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <meta name="description" content="AppraSure - Appraisal Services" />
-  <title>AppraSure | Appraisal Services</title>
-  <link rel="stylesheet" href="style.css" />
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="AppraSure - Client Onboarding Portal" />
+    <title>Client Portal | AppraSure</title>
+    <link rel="stylesheet" href__="style.css" />
+    <style>
+        /* Styles for the new portal section */
+        .portal-section {
+            padding: 2rem 1rem;
+            max-width: 1100px;
+            margin: 2rem auto;
+            background: rgba(250, 250, 245, .85);
+            border-radius: 12px;
+            text-align: center;
+            box-shadow: 0 8px 32px rgba(0,0,0,0.1);
+        }
+        .portal-section h2 {
+            /* This will use the h2 style from your style.css */
+            font-size: 2.8rem;
+            margin-bottom: 1rem;
+        }
+        .portal-section p {
+            font-size: 1.2rem;
+            color: #333;
+            margin-bottom: 2.5rem;
+            max-width: 700px;
+            margin-left: auto;
+            margin-right: auto;
+            line-height: 1.6;
+        }
+        .portal-iframe-container {
+            background: #ffffff;
+            border-radius: 12px;
+            overflow: hidden;
+            box-shadow: 0 5px 25px rgba(0,0,0,0.1);
+            border: 1px solid rgba(0,0,0,0.08);
+        }
+        .portal-iframe {
+            width: 100%;
+            height: 900px; /* A good height for the multi-step form */
+            border: none;
+            display: block; /* Removes any potential space below the iframe */
+        }
+        @media (max-width: 768px) {
+            .portal-section {
+                margin: 1rem;
+                padding: 1.5rem 0.5rem;
+            }
+            .portal-section h2 {
+                font-size: 2rem;
+            }
+            .portal-iframe {
+                height: 1200px; /* Taller on mobile as elements stack */
+            }
+        }
+    </style>
 </head>
 <body>
-  <header>
-    <img src="apprasure-transparent.png" alt="AppraSure Logo">
-    <p>Clear Resolutions for Complex Disputes</p>
-  </header>
-
-  <nav>
-    <a href="index.html">Home</a>
-    <a href="why.html">Why Appraisal?</a>
-    <a href="services.html">Services</a>
-    <a href="testimonials.html">Testimonials</a>
-    <a href="portal.html">Contact</a>
-  </nav>
-
- <section class="pre-footer">
-    <div class="logo-strip">
-      <img src="combined-cobrand-logos.png" />
-    </div>
-  </section>
-
-  <footer>
-    <div class="footer-top">
-      <div class="footer-top-content">
-        <h2>Ready for Resolution?</h2>
-        <a href="#contact" class="footer-cta-btn">→</a>
-      </div>
-    </div>
-
-    <div class="footer-bottom">
-      <div class="footer-column">
-        <img src="apprasure-transparent.png" alt="AppraSure Logo Footer">
+    <header>
+        <img src="apprasure-transparent.png" alt="AppraSure Logo">
         <p>Clear Resolutions for Complex Disputes</p>
-      </div>
-      <div class="footer-column">
-        <h4>Contact</h4>
-        <div>Email: <a href="mailto:info@apprasure.com">info@apprasure.com</a></div>
-        <div>Text: (469) 905-0505</div>
-        <div>Lewisville, TX</div>
-      </div>
-      <div class="footer-column">
-        <h4>Follow Us</h4>
-        <div><a href="#">LinkedIn</a></div>
-        <div><a href="#">Instagram</a></div>
-      </div>
-    </div>
-    <div class="footer-bottom-bar">
-      &copy; 2025 AppraSure. All rights reserved.
-    </div>
-  </footer>
+    </header>
+
+    <nav>
+        <a href__="index.html">Home</a>
+        <a href__="why.html">Why Appraisal?</a>
+        <a href__="services.html">Services</a>
+        <a href__="testimonials.html">Testimonials</a>
+        <a href__="portal.html">Client Portal</a> <!-- MODIFIED: Updated link text -->
+    </nav>
+
+    <!-- === NEW PORTAL SECTION START === -->
+    <section class="portal-section">
+        <h2>Client Onboarding Portal</h2>
+        <p>
+            Welcome to the AppraSure client portal. Please complete the secure form below to begin the
+            onboarding process for your claim.
+        </p>
+        <div class="portal-iframe-container">
+            <iframe
+                class="portal-iframe"
+                src="https://portal.apprasure.com/Onboarding"
+                title="AppraSure Client Onboarding Portal"
+                frameborder="0">
+            </iframe>
+        </div>
+    </section>
+    <!-- === NEW PORTAL SECTION END === -->
+
+    <section class="pre-footer">
+        <div class="logo-strip">
+            <img src="combined-cobrand-logos.png" />
+        </div>
+    </section>
+
+    <footer>
+        <div class="footer-top">
+            <div class="footer-top-content">
+                <h2>Ready for Resolution?</h2>
+                <a href__="portal.html" class="footer-cta-btn">→</a> <!-- MODIFIED: Link points to portal page -->
+            </div>
+        </div>
+
+        <div class="footer-bottom">
+            <div class="footer-column">
+                <img src="apprasure-transparent.png" alt="AppraSure Logo Footer">
+                <p>Clear Resolutions for Complex Disputes</p>
+            </div>
+            <div class="footer-column">
+                <h4>Contact</h4>
+                <div>Email: <a href__="mailto:info@apprasure.com">info@apprasure.com</a></div>
+                <div>Text: (469) 905-0505</div>
+                <div>Lewisville, TX</div>
+            </div>
+            <div class="footer-column">
+                <h4>Follow Us</h4>
+                <div><a href__="#">LinkedIn</a></div>
+                <div><a href__="#">Instagram</a></div>
+            </div>
+        </div>
+        <div class="footer-bottom-bar">
+            &copy; 2025 AppraSure. All rights reserved.
+        </div>
+    </footer>
 </body>
 </html>
